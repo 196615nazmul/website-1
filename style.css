@@ -1,0 +1,235 @@
+/* header css */
+.header{
+    background-color: #fff ;
+}
+.logo img{
+    max-width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.header-item ul{text-align: right;}
+.header-item ul li{display: inline-block;}
+.header-item ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0 15px;
+    line-height: 60px;
+    transition: .5s;
+}
+.header-item ul li a:hover{
+    color: skyblue;
+}
+
+
+
+/* banner section */
+.banner{
+    background: url(https://i.ibb.co/87FD6YP/kobu-agency-IWLR561-Yb-MY-unsplash.jpg)no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    z-index: 1;
+    position: relative;
+}
+.banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.575);
+    z-index: -1;
+}
+h1.text-white {
+    font-size: 50px;
+}
+.color{color: #827e7c;
+transition: .4s;
+font-size: 25px;}
+.color span{
+    font-size: 28px;
+    margin-right: 6px;
+}
+.color:hover{
+background: #e0a440;
+color: #fff;
+}
+
+
+/* our using section */
+.font{
+    font-size: 50px;
+}
+.our-using{padding: 50px 0;
+background: #f7f7f7;}
+
+.text-h1 {
+    background: #f5f5f5;
+    width: 350px;
+    height: 68px;
+    padding: 0 12px;
+    font-size: 50px;
+    word-spacing: 3px;
+    transition: .5s;
+}
+.card-text {
+    background: #ffffff;
+    width: 400px;
+    height: 730px;
+}
+.card-text-2 ul{
+    list-style: none;
+}
+.card-text-2 li {
+    font-size: 22px;
+    line-height: 50px;
+    color: #93958c;
+}
+.card-text-2 li span {
+    color: #e79230;
+    font-size: 25px;
+    margin-right: 15px;
+    margin-left: -10px;
+}
+.card-text-1 {
+    border-bottom: 4px solid #ddd;
+    margin-right: -15px;
+    transition: .5s;
+    margin-top: -16px;
+}
+.card-text-1:hover{
+   background: #e79230;
+    color: #fff;
+
+}    
+.card-text-1 h1:hover{
+   background: #e79230;
+    color: #fff;
+
+}    
+ 
+.mafiza {
+    margin-left: 22%;
+    box-shadow: 0px 0px 25px #cccccc;
+}
+
+/* our team section */
+.team{
+    border: 5px double #e79230;
+    
+}
+/* subscribe section */
+.subscribe{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+input.box {
+    border: none;
+    border: 2px solid #aa972c;
+    width: 450px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 10px;
+    outline: none;
+}
+.prapti {
+    background: #aa972c;
+    color: #fff;
+    padding: 12px 68px;
+    transition: .5s;
+}
+.prapti:hover{
+    background: #fff;
+    color: red;
+    border: 2px solid skyblue;
+
+
+}
+/* about section */
+.about img{
+    max-width: 100%;
+}
+.hasan{line-height: 48px;}
+.about-text{
+    margin-left: 10px;
+}
+
+/* blog section */
+.blog {
+    border: 3px solid #ddd;
+    height: 550px;
+    width: auto;
+}
+.part-1 {
+    background: #fff;
+   
+}
+.part-2 img {
+    max-width: 100px;
+    border: 7px solid #aa972c;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.part-3 {
+    float: right;
+    width: 55%;
+    margin-top: 60px;
+}
+.part-1 span {
+    font-size: 80px;
+    opacity: .1;
+    position: relative;
+    top: 1px;
+    left: 12px;
+}
+p.lorem {
+    position: relative;
+    top: -60px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+.p-content{
+    position: relative;
+}
+.p-content::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 190px;
+    bottom: -245px;
+    margin: auto;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 39px 37px 0 30px;
+    border-color: #fff transparent transparent transparent;
+}
+.box-1 {
+    width: 550px;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid  cadetblue;
+}
+.box-2 {
+    width: 275px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border: 2px solid cadetblue;
+    padding: 10px;
+}
+.box-3 {
+    outline: none;
+    border: 2px solid cadetblue;
+    padding: 10px;
+}
+.jahan {
+    padding: 16px 85px;
+}
